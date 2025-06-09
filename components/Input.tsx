@@ -18,7 +18,6 @@ const Input: React.FC<InputProps> = ({id, onChange, value, label, type}) => {
          peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-1 peer-focus:scale-75
          peer-focus:-translate-y-3" htmlFor={id}>{label}</label>
     </div>
-   
   )
 }
 
